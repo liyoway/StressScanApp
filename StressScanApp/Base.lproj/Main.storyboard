@@ -128,7 +128,7 @@
                                     <action selector="languageChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WKx-wu-n7m"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxH-Jk-zwn">
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="4" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JxH-Jk-zwn">
                                 <rect key="frame" x="16" y="736" width="361" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
@@ -207,7 +207,6 @@
                                     <color key="baseForegroundColor" systemColor="systemGray2Color"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="choseAnswer:" destination="n0l-Ye-obC" eventType="touchUpInside" id="HZr-CH-Nk3"/>
                                     <action selector="languageChosen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MHF-BQ-Z51"/>
                                     <segue destination="tdO-za-Q6f" kind="unwind" unwindAction="unwindToRootViewControllerWithSegue:" id="ybt-nT-FxI"/>
                                 </connections>

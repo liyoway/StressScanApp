@@ -51,8 +51,5 @@ func updateResults(score: Int, resultImage: UIImageView, resultLabel: UILabel, l
     } else if score < 10 && score >= 5 {
         resultImage.image = UIImage(named: results[2].name)
         resultLabel.text = language == "JP" ? results[2].JP : results[2].TW
-    } else {
-        resultLabel.text = language == "JP" ? "スコアが範囲外です。" : "分數超出範圍。"
-        resultImage.image = nil // 或設置一個預設圖片
     }
 }
