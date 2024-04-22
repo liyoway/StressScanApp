@@ -13,8 +13,10 @@ func updateQuestion(language: String, count: Int, questionLabel: UILabel!, quest
         switch language {
         case "JP":
             questionLabel.text = question[count].JP
+            questionLabel.textAlignment = .left
         case "TW":
             questionLabel.text = question[count].TW
+            questionLabel.textAlignment = .center
         default:
             questionLabel.text = question[count].JP
         }
